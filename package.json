@@ -1,0 +1,22 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/centroid": "^6.0.2",
+    "@turf/collect": "^6.0.1",
+    "turf": "^3.0.14",
+    "uniq": "^1.0.1"
+  }
+}
